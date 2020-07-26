@@ -33,7 +33,6 @@ function move(x, y) {
 }
 
 function restart() {
-  console.log("test")
   isCross = true;
   board = [ [0,0,0], [0,0,0], [0,0,0] ]
   isWin = false
@@ -129,7 +128,7 @@ function displayResult(winner){
   }else {
     winnername = "Circle"
   }
-  $("#result").html(winnername + " win!");
+  $("#result").html(winnername + " win!!!");
   $("#result").css("display", "block");
   isWin = true;
 }
