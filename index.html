@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" type="text/css" href="./index.css">
+  </head>
+  <body>
+    <div>
+      <span id="square00" class="square" onclick="move(0, 0)">
+        <img src="./cross.png" class="cross" id="mycross00">
+      </span>
+      <span id="square01" class="square" onclick="move(0, 1)">
+        <img src="./cross.png" class="cross" id="mycross01">
+      </span>
+      <span id="square02" class="square" onclick="move(0, 2)">
+        <img src="./cross.png" class="cross" id="mycross02">
+      </span>
+    </div>
+    <div>
+      <span id="square10" class="square" onclick="move(1, 0)">
+        <img src="./cross.png" class="cross" id="mycross10">
+      </span>
+      <span id="square11" class="square" onclick="move(1, 1)">
+        <img src="./cross.png" class="cross" id="mycross11">
+      </span>
+      <span id="square12" class="square" onclick="move(1, 2)">
+        <img src="./cross.png" class="cross" id="mycross12">
+      </span>
+    </div>
+    <div>
+      <span id="square20" class="square" onclick="move(2, 0)">
+        <img src="./cross.png" class="cross" id="mycross20">
+      </span>
+      <span id="square21" class="square" onclick="move(2, 1)">
+        <img src="./cross.png" class="cross" id="mycross21">
+      </span>
+      <span id="square22" class="square" onclick="move(2, 2)">
+        <img src="./cross.png" class="cross" id="mycross22">
+      </span>
+    </div>
+    <h1 id="result"></h1>
+    <button onclick="restart()">Restart</button>
+  </body>
+  <script type="text/javascript" src="./index.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</html>
