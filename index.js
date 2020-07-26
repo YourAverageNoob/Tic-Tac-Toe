@@ -128,7 +128,7 @@ function displayResult(winner){
   }else {
     winnername = "Circle"
   }
-  $("#result").html(winnername + " win!!!");
+  $("#result").html(winnername + " win, yeah!!!");
   $("#result").css("display", "block");
   isWin = true;
 }
